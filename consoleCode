@@ -1,0 +1,3 @@
+Runner.instance_.setSpeed(30)
+var original = Runner.prototype.gameOver
+Runner.prototype.gameOver = function(){}
